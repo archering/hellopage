@@ -1,0 +1,15 @@
+.header {
+ display: flex;
+ height: 60px;
+ width: 100%;
+ background-color: black;
+ color:white;
+ align-items: center;
+ justify-content: start;   
+}
+.context{
+    display: flex;
+    background-color: rgba(77, 53, 184, 0.822); 
+    flex-grow: 1;
+    height: 100%;
+}
