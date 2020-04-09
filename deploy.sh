@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-if [ -z "$s1" ]
+if [ -z "$1" ]
 then 
     echo "which folder do you want to publish ?"
     exit 1
