@@ -178,7 +178,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"context\">\n  <ul>\n    <li>第一步：创建master 分支，编译项目，生成dist目录</li>\n    <li>第二步：创建空白分支，git checkout --orphan ipages</li>\n    <li>第三步：删除git rm -rf .   删除文件， 创建一个readme.md ， 然后 git commit -m \"提交\"</li>\n    <li>第四部 在ipages分支，执行， git ls-tree master: dist</li>\n  </ul>\n</div>\n"
+module.exports = "<div class=\"context\">\n  \n  如何创建一个机遇github的日志网站/ 发布一个基于github的wiki\n\n  具体看这里 https://pages.github.com/\n  \n  第一步\t在github 上创建一个repo  命名为 <username>.github.io\n  \n  这个库必须是public的\n  \n  第二步\n  \n    git clone https://github.com/username/username.github.io  到本地进行编程\n  \n  第三步\n  \n    编写这个工程， 然后git push origin master  \n  \n  第四步：通过下面这个地址去访问吧\n  \n    https://username.github.io\n  \n  ————————————————————————————————————————————\n    \n  另外一种方案 （上面这种方案，决定了你申请一个账号，只能建立一个静态网站）\n  \n  \n  参考这篇文章 https://gist.github.com/belohlavek/61dd16c08cd9c57a168408b9ac4121c2\n  \n  \n  1 创建一个repo  <name job>\n  \n  2 编写工程，  (注意，gitignore 文件中把 dist目录去掉，让git记住)\n  \n  3 build  —>  dist\n  \n  4  git substree push —prefix diet origin gh-pages （在这之前，不要创建gh-pages分支）\n  \n  \n  目前这一做法适合 gitlab和 github ， gitlab的默认页面分支是ipages\n  \n  \n  \n  怎么访问呢\n  \n  https://username.github.io/<name-job>  来显示页面\n  \n  \n  比如 https://archering.github.io/hellopage/ \n  \n  还可以访问 https://archering.github.io\n  \n  \n  \n  \n</div>\n"
 
 /***/ }),
 
